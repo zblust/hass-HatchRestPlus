@@ -1,6 +1,6 @@
 """Constants for hatch_rest_wifi."""
 # Base component constants
-NAME = "Integration blueprint"
+NAME = "Hatch Rest Wifi"
 DOMAIN = "hatch_rest_wifi"
 DOMAIN_DATA = f"{DOMAIN}_data"
 VERSION = "0.0.1"

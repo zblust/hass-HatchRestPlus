@@ -1,5 +1,5 @@
 {
-    "name": "Integration blueprint",
+    "name": "Hatch Rest Wifi",
     "hacs": "1.6.0",
     "domains": [
         "binary_sensor",

@@ -1,10 +1,10 @@
 {
   "domain": "hatch_rest_wifi",
-  "name": "Integration blueprint",
+  "name": "Hatch Rest Wifi",
   "documentation": "https://github.com/zblust/hass-HatchRestPlus",
   "iot_class": "cloud_polling",
   "issue_tracker": "https://github.com/zblust/hass-HatchRestPlus/issues",
   "version": "0.0.0",
   "config_flow": true,
-  "codeowners": ["@ludeeus"]
+  "codeowners": ["@zblust"]
 }
