@@ -1,11 +1,11 @@
-"""Constants for integration_blueprint."""
+"""Constants for hatch_rest_wifi."""
 # Base component constants
 NAME = "Integration blueprint"
-DOMAIN = "integration_blueprint"
+DOMAIN = "hatch_rest_wifi"
 DOMAIN_DATA = f"{DOMAIN}_data"
 VERSION = "0.0.1"
 ATTRIBUTION = "Data provided by http://jsonplaceholder.typicode.com/"
-ISSUE_URL = "https://github.com/custom-components/integration_blueprint/issues"
+ISSUE_URL = "https://github.com/zblust/hass-HatchRestPlus/issues"
 
 # Icons
 ICON = "mdi:format-quote-close"
