@@ -81,10 +81,6 @@ README content if this was a published component:
 
 [![hacs][hacsbadge]][hacs]
 ![Project Maintenance][maintenance-shield]
-[![BuyMeCoffee][buymecoffeebadge]][buymecoffee]
-
-[![Discord][discord-shield]][discord]
-[![Community Forum][forum-shield]][forum]
 
 _Component to integrate with [hatch_rest_wifi][hatch_rest_wifi]._
 
