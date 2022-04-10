@@ -8,7 +8,7 @@ ATTRIBUTION = "Data provided by http://jsonplaceholder.typicode.com/"
 ISSUE_URL = "https://github.com/zblust/hass-HatchRestPlus/issues"
 
 # Icons
-ICON = "mdi:format-quote-close"
+ICON = "mdi:lamp"
 
 # Device classes
 BINARY_SENSOR_DEVICE_CLASS = "connectivity"

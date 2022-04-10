@@ -1,4 +1,4 @@
-"""Adds config flow for Blueprint."""
+"""Adds config flow for HatchRestWifi."""
 from homeassistant import config_entries
 from homeassistant.core import callback
 from homeassistant.helpers.aiohttp_client import async_create_clientsession
@@ -13,8 +13,8 @@ from .const import (
 )
 
 
-class BlueprintFlowHandler(config_entries.ConfigFlow, domain=DOMAIN):
-    """Config flow for Blueprint."""
+class HatchRestWifiFlowHandler(config_entries.ConfigFlow, domain=DOMAIN):
+    """Config flow for HatchRestWifi."""
 
     VERSION = 1
     CONNECTION_CLASS = config_entries.CONN_CLASS_CLOUD_POLL
@@ -54,7 +54,7 @@ class BlueprintFlowHandler(config_entries.ConfigFlow, domain=DOMAIN):
     @staticmethod
     @callback
     def async_get_options_flow(config_entry):
-        return BlueprintOptionsFlowHandler(config_entry)
+        return HatchRestWifiOptionsFlowHandler(config_entry)
 
     async def _show_config_form(self, user_input):  # pylint: disable=unused-argument
         """Show the configuration form to edit location data."""
@@ -81,8 +81,8 @@ class BlueprintFlowHandler(config_entries.ConfigFlow, domain=DOMAIN):
         return False
 
 
-class BlueprintOptionsFlowHandler(config_entries.OptionsFlow):
-    """Blueprint config flow options handler."""
+class HatchRestWifiOptionsFlowHandler(config_entries.OptionsFlow):
+    """HatchRestWifi config flow options handler."""
 
     def __init__(self, config_entry):
         """Initialize HACS options flow."""

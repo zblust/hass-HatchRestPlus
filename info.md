@@ -21,7 +21,7 @@ _Component to integrate with [hatch_rest_wifi][hatch_rest_wifi]._
 ## Installation
 
 1. Click install.
-1. In the HA UI go to "Configuration" -> "Integrations" click "+" and search for "Blueprint".
+1. In the HA UI go to "Configuration" -> "Integrations" click "+" and search for "Hatch Rest Wifi".
 
 {% endif %}
 
